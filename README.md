@@ -1,5 +1,5 @@
 # DMP Tool Documenation
-This is the primary repository for documentation and tickets relating to the DMP Tool application, rebuilt for release in 2026.  User-facing help and general documentation will all live in this repository, while technical documentation related to specific code repositories will remain in those repositories.
+This is the primary repository for documentation and tickets relating to the DMP Tool application, [rebuilt for release in 2026](https://blog.dmptool.org/rebuild-hub/).  User-facing help and general documentation will all live in this repository, while technical documentation related to specific code repositories will remain in those repositories.
 
 This repository is a work in progress!
 
