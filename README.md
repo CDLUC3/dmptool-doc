@@ -13,6 +13,19 @@ This repository is the primary location for all GitHub Issues (also called "tick
 **Task Tickets**: Work that has defined outcomes ready to be implemented (or will be the time it is assigned) at an appropriate time.  These should only be created by internal CDL members.
 
 
+## System Overview
+
+The DMP Tool system is made up of several services. 
+
+![Service architecture](docs/high-level-arch.png)
+
+- Apollo Server (GraphQL) engine - the core of the new system
+- NextJS UI - hosts the website (makes calls to the Apollo Server)
+- Fastify REST API - hosts our REST API (makes calls to the Apollo Server)
+- ExpressJS Narrative Generator - produces all exports (e.g. PDF, CSV, DOCX, etc.)
+- JSON Schemas - for new question/answer structures as well as the maDMP RDA Common Standard and DMP Tool extension schemas
+
+
 ## Code Repositories
 Below are the related repositories that make up the DMP Tool application
  
